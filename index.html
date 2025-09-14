@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Pembelajaran</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<style>
+    body::-webkit-scrollbar {
+        display: none;
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <nav class="bg-blue-950 flex justify-between items-center p-3 px-3 shadow w-full sticky top-0 z-10">
+        <h1 class="font-bold uppercase text-xl text-white  text-shadow-sm">mb<i class="bi bi-mortarboard"></i></h1>
+        <ul class="hidden md:flex gap-5 font-semibold capitalize">
+            <a href="#beranda"
+                class="transition-all p-1 hover:scale-105 hover:bg-blue-500 hover:rounded-md text-white hover:text-shadow-md">
+                <li>beranda</li>
+            </a>
+            <a href="#deskripsi"
+                class="transition-all p-1 hover:scale-105 hover:bg-blue-500 hover:rounded-md text-white hover:text-shadow-md">
+                <li>deskripsi</li>
+            </a>
+            <a href="#konten"
+                class="transition-all p-1 hover:scale-105 hover:bg-blue-500 hover:rounded-md text-white hover:text-shadow-md">
+                <li>konten</li>
+            </a>
+            <a href="#contact"
+                class="transition-all p-1 hover:scale-105 hover:bg-blue-500 hover:rounded-md text-white hover:text-shadow-md">
+                <li>contact</li>
+            </a>
+        </ul>
+        <button onclick="" class="md:hidden">
+            <i class="bi bi-list text-2xl"></i>
+        </button>
+    </nav>
+    <!-- hero section / judulnya -->
+    <div class="md:h-[90vh] flex  justify-center md:items-center md:my-0 bg-gradient-to-b from-white  to-blue-200 z-1"
+        id="beranda">
+        <div>
+            <h1 class="text-3xl md:text-4xl text-center font-bold text-shadow-xs uppercase mb-4 ">selamat datang di
+            </h1>
+            <h1 class="text-4xl md:text-7xl text-center font-bold text-blue-600 text-shadow-sm uppercase">media belajar
+                <i class="bi bi-mortarboard"></i>
+            </h1>
+            <div class="w-[40rem] flex justify-center mt-6">
+                <p class="text-gray-700 text-sm md:text-lg text-center capitalize">
+                    media belajar adalah sebuah website media pembelajaran simpel untuk tugas lkpd 2 tailwind dari ibu
+                    faridah.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="h-[5rem] bg-blue-200"></div>
+    <div class="h-[20rem] not-only-of-type:bg-gradient-to-b from-blue-200 to-white "></div>
+
+    <main class="p-6 bg-white z-1">
+        <!-- deskripsi -->
+        <div class="flex justify-center items-center" id="deskripsi">
+
+            <div class="grid grid-cols-1 md:grid-cols-2  gap-5 mb-10">
+                <div class="flex justify-center md:justify-start items-center">
+
+                    <div class="p-[3rem] md:px-[8rem] bg-blue-950 rounded-md shadow text-center">
+                        <i class="bi bi-mortarboard text-9xl font-bold text-blue-400 text-shadow-sm"></i>
+                    </div>
+                </div>
+                <!-- tentang web -->
+                <div class="md:w-[25rem] ">
+                    <h1 class="uppercase font-semibold text-2xl mb-3">
+                        tentang web ini
+                    </h1>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Website ini adalah sebuah
+                        <span class="font-semibold text-blue-600">media pembelajaran digital</span>
+                        yang dibuat menggunakan
+                        <span class="font-semibold">Tailwind CSS</span>
+                        di
+                        <span class="font-semibold">Visual Studio Code.</span>
+                        Website ini dibuat sebagai bagian dari
+                        <span class="italic">tugas LKPD 2</span>
+                        dari Ibu Faridah, sekaligus menjadi sarana belajar untuk memahami bagaimana membuat tampilan web
+                        yang
+                        <span class="underline">sederhana, responsif, dan menarik</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center">
+
+            <div class="grid grid-cols-1 md:grid-cols-2  gap-10 mb-10">
+                <div class="md:w-[25rem]">
+                    <h1 class="uppercase font-semibold text-2xl mb-3">kenapa disini?</h1>
+                    <p class="text-gray-700 leading-relaxed">
+                        Karena website ini tidak hanya sekadar tugas, tetapi juga tempat untuk
+                        <span class="font-semibold">belajar, berlatih, dan mengasah keterampilan</span>
+                        dalam membangun proyek nyata dengan teknologi modern.
+                        Disini, pembelajaran dikemas agar lebih menyenangkan, mudah diakses,
+                        dan dapat menjadi inspirasi dalam pengembangan web selanjutnya.
+                    </p>
+
+                </div>
+                <div class="flex justify-center md:justify-end items-center">
+                    <div class="p-[3rem] md:px-[8rem] bg-blue-950 rounded-md shadow text-center">
+                        <i class="bi bi-question-lg text-9xl font-bold text-white text-shadow-sm"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center mt-10">
+            <!-- card konten -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10" id="konten">
+                <div class="transition-all hover:scale-105 focus-within:ring-4 focus-within:ring-blue-300 active:scale-95">
+                    <div class="w-[18rem] h-[19rem] bg-white border border-gray-300 shadow-lg p-6 mt-6 rounded-lg">
+                        <div class="bg-blue-900 p-5 rounded-lg h-[8rem] flex justify-center items-center">
+
+                            <i class="bi bi-filetype-html  text-5xl  text-white font-bold text-shadow-md "></i>
+                        </div>
+                        <h2 class="text-xl font-semibold  uppercase mt-3">html</h2>
+                        <p class=" capitalize">HyperText markup language</p>
+                        <button
+                            class="transition-all hover:bg-blue-600 active:scale-95 p-1 px-4 mt-7 rounded-md bg-blue-500 text-white capitalize font-bold text-lg">
+                            mulai
+                        </button>
+                    </div>
+                </div>
+                <div class="transition-all hover:scale-105 focus-within:ring-4 focus-within:ring-blue-300 active:scale-95">
+                    <div class="w-[18rem] h-[19rem] bg-white border border-gray-300 shadow-lg p-6 mt-6 rounded-lg">
+                        <div class="bg-blue-900 p-5 rounded-lg h-[8rem] flex justify-center items-center">
+
+                            <i class="bi bi-css  text-5xl  text-white font-bold text-shadow-md "></i>
+                        </div>
+                        <h2 class="text-xl font-semibold  uppercase mt-3">css</h2>
+                        <p class=" capitalize">cascading style sheets</p>
+                        <button
+                            class="transition-all hover:bg-blue-600 active:scale-95 p-1 px-4 mt-7 rounded-md bg-blue-500 text-white capitalize font-bold text-lg">
+                            mulai
+                        </button>
+                    </div>
+                </div>
+                <div class="transition-all hover:scale-105 focus-within:ring-4 focus-within:ring-blue-300 active:scale-95">
+                    <div class="w-[18rem] h-[19rem] bg-white border border-gray-300 shadow-lg p-6 mt-6 rounded-lg">
+                        <div class="bg-blue-900 p-5 rounded-lg h-[8rem] flex justify-center items-center">
+
+                            <i class="bi bi-javascript   text-5xl  text-white font-bold text-shadow-md "></i>
+                        </div>
+                        <h2 class="text-xl font-semibold  uppercase mt-3">JS</h2>
+                        <p class=" capitalize">javascript</p>
+                        <button
+                            class="transition-all hover:bg-blue-600 active:scale-95 p-1 px-4 mt-7 rounded-md bg-blue-500 text-white capitalize font-bold text-lg">
+                            mulai
+                        </button>
+                    </div>
+                </div>
+                <div class="transition-all hover:scale-105 focus-within:ring-4 focus-within:ring-blue-300 active:scale-95">
+                    <div class="w-[18rem] h-[19rem] bg-white border border-gray-300 shadow-lg p-6 mt-6 rounded-lg">
+                        <div class="bg-blue-900 p-5 rounded-lg h-[8rem] flex justify-center items-center">
+
+                            <i class="bi bi-filetype-php  text-5xl  text-white font-bold text-shadow-md "></i>
+                        </div>
+                        <h2 class="text-xl font-semibold  uppercase mt-3">php</h2>
+                        <p class=" capitalize">hypertext preprocessor </p>
+                        <button
+                            class="transition-all hover:bg-blue-600 active:scale-95 p-1 px-4 mt-7 rounded-md bg-blue-500 text-white capitalize font-bold text-lg">
+                            mulai
+                        </button>
+                    </div>
+                </div>
+                <div class="transition-all hover:scale-105 focus-within:ring-4 focus-within:ring-blue-300 active:scale-95">
+                    <div class="w-[18rem] h-[19rem] bg-white border border-gray-300 shadow-lg p-6 mt-6 rounded-lg">
+                        <div class="bg-blue-900 p-5 rounded-lg h-[8rem] flex justify-center items-center">
+
+                            <i class="bi bi-filetype-sql text-5xl  text-white font-bold text-shadow-md "></i>
+                        </div>
+                        <h2 class="text-xl font-semibold  uppercase mt-3">MySQL</h2>
+                        <p class=" capitalize">my structured query language</p>
+                        <button
+                            class="transition-all hover:bg-blue-600 active:scale-95 p-1 px-4 mt-7 rounded-md bg-blue-500 text-white capitalize font-bold text-lg">
+                            mulai
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-gray-900 text-white mt-20" id="contact">
+        <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h1 class="font-bold text-4xl md:text-5xl uppercase text-blue-400 flex items-center gap-2">
+                    <i class="bi bi-mortarboard"></i> Media Belajar
+                </h1>
+                <p class="mt-4 text-gray-400 text-sm">
+                    Platform media pembelajaran interaktif untuk membantu siswa belajar dengan mudah, cepat, dan
+                    menyenangkan.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <h2 class="uppercase font-semibold text-lg text-blue-300 mb-4">Company</h2>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="hover:text-blue-400 cursor-pointer">CloverDev</li>
+                        <li class="hover:text-blue-400 cursor-pointer">WRS</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="uppercase font-semibold text-lg text-blue-300 mb-4">Contact</h2>
+                    <ul class="space-y-3 text-gray-300 text-sm">
+                        <li class="flex items-center gap-2">
+                            <i class="bi bi-envelope text-blue-400"></i>
+                            <span>ghaizan17@gmail.com</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="bi bi-phone text-blue-400"></i>
+                            <span>+62-08-325-181-3950</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-700 text-center py-4 text-gray-400 text-sm">
+            © 2025 Media Belajar. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<!-- ini codingan milik Ghaizan -->
